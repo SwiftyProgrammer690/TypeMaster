@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TypeMaster Game Window</title>
+    <link href="game.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="assets/Logo.PNG" />
+  </head>
+  <body>
+		<button id='dd' onclick='www()'>☀️</button>
+		<h1>Typer Pro 1.0</h1>
+		<div class='speed_outer'>
+			<div class='speed_inner' id='time_bar'></div>
+		</div>
+		<div class='stats'>
+			<p id='streak'>Streak: 0</p>
+			<p id='score'>Score: 0</p>
+		</div>
+		<div class='text_holder'>
+			<p id='value'></p>
+		</div>
+		<div class='alert' id='alert'>
+			<p id='alert_text' class='haha'>Streak of 10!</p>
+		</div>
+		<div class='alert' id='finish'>
+			<div class='alert_content'>
+				<h1>Stats</h1>
+				<div class='stat_display'>
+					<h2>Words</h2>
+					<p id='word_count'>0</p>
+				</div>
+				<div class='stat_display center'>
+					<h2>Score</h2>
+					<p id='score_count'>0</p>
+				</div>
+				<div class='stat_display'>
+					<h2>Streak</h2>
+					<p id='streak_count'>0</p>
+				</div>
+				<p class='center'>WPM</p>
+				<h1 id='wpm'></h1>
+				<h1 id='highscore'>High Score: </h1>
+			</div>
+			<button onclick='location.reload();'>Play Again</button>
+		</div>
+		<div class='alert' id='start'>
+			<div class='cover'>
+				<button onclick='type_first()' class='more_margin'>Play</button>
+			</div>
+		</div>
+    <script src="script.js"></script>
+  </body>
+</html>
