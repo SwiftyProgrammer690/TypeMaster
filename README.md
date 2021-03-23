@@ -1,7 +1,7 @@
 # TypeMaster
 Typing game if you want to learn how to type fast!
 
-[![Run on Repl.it](https://repl.it/badge/github/SwaritChoudhari/TypeMaster-10)](https://repl.it/github/SwaritChoudhari/TypeMaster-10)
+I use repl.it to make this game! 
 
 Demos:
 ![2021-03-23](https://user-images.githubusercontent.com/68472469/112230694-affc2b80-8c0b-11eb-9f08-66a921b63fd0.png)
